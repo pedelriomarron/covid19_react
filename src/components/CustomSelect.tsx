@@ -2,7 +2,6 @@ import * as React from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { fetchStats, setSelectedCountry, fetchCountries } from '../store/actions/fetch';
 import { WrapperSelect } from '../styles/styles';
-import 'react-flags-select/css/react-flags-select.css';
 import Select from 'react-select'
 import 'flag-icon-css/css/flag-icon.min.css'
 import { components } from 'react-select';

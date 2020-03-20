@@ -15,7 +15,6 @@ export function statsReducers(state: IinitalState = initalState, action: any) {
 
     switch (action.type) {
         case 'FETCH_COUNTRIES': {
-            console.log('ENtro', action)
             return {
                 ...state,
                 countries: action.countries,
